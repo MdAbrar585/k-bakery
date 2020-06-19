@@ -63,6 +63,9 @@ header > .container{
 .hamburger-menu .fa-bars.open{
     display: none;
 }
+.hamburger-menu .makeDisappear.open{
+    display:none
+    }
 .nav-list{
     position: fixed;
     top: 0;
