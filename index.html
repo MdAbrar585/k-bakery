@@ -2,25 +2,51 @@
 <html lang="en">
 
 <head>
+
+    <!-- ----------------- meta tag's ----------------- -->
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ----------------- end of meta tag's ----------------- -->
+
+    <!-- ----------------- title ----------------- -->
     <title>Bakery | Home</title>
+    <!-- ----------------- end of title ----------------- -->
+
+    <!-- ----------------- bootstrap link ----------------- -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- ----------------- end of bootstrap link ----------------- -->
+
+    <!-- ----------------- font awesome link ----------------- -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ----------------- end font awesome link ----------------- -->
+
+    <!-- -----------------aos css link ----------------- -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- -----------------end of aos css link ----------------- -->
+
+    <!-- -----------------custom css link ----------------- -->
     <link rel="stylesheet" href="styles.css">
+    <!-- ----------------- end of custom css link ----------------- -->
+
 </head>
 
 <body>
+
+    <!-- -----------------header ----------------- -->
+
     <header id="home">
         <div class="container">
+            <!-- -----------------hamburger menu ----------------- -->
             <div class="hamburger-menu">
                 <i class="fa fa-bars toggle"></i>
                 <i class="fa fa-times toggle"></i>
             </div>
+            <!-- -----------------end of hamburger menu ----------------- -->
+
+            <!-- -----------------nav section ----------------- -->
             <nav class="d-flex align-items-center justify-content-center justify-content-lg-between" id="navbar">
                 <a class="navbar-brand" href="index.html">
                     <img class="img-fluid" src="images/logo.png" alt="">
@@ -40,16 +66,21 @@
                     </li>
                 </ul>
             </nav>
+            <!-- -----------------end of nav section ----------------- -->
+
+            <!-- -----------------text of header  section ----------------- -->
             <div class="hero-text w-100 text-white px-2 px-sm-0">
                 <h1 class="display-4">Welcome</h1>
                 <p class="lead mb-4">Baked goods like you've never seen before!</p>
                 <a class="btn px-5 mr-2" href="#">Explore</a>
                 <a class="btn px-5 mr-2" href="#">Find a store</a>
             </div>
-
+            <!-- -----------------end of text of header  section ----------------- -->
         </div>
     </header>
+    <!-- -----------------end of header ----------------- -->
 
+    <!-- -----------------about section ----------------- -->
     <main>
         <section class="about" id="about">
             <div class="container">
@@ -64,14 +95,16 @@
                             magni tempora dolor inventore.</p>
                         <a class="btn mt-4 mb-5 mb-md-0" href="#">Find More</a>
                     </div>
-                    <div class="col-12 col-md-6"  data-aos="fade-left">
+                    <div class="col-12 col-md-6" data-aos="fade-left">
                         <img class="img-fluid" src="images/about-img.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <!-- -----------------end of about section ----------------- -->
 
+    <!-- -----------------menu section ----------------- -->
     <section class="menu" id="menu">
         <div class="container">
             <div class="row text-center text-white">
@@ -110,9 +143,9 @@
                 <h4 class="text-white">Our Tasty Food</h4>
                 <h1>The Menu</h1>
             </div>
-                <!-- Row 1 -->
+            <!-- Row 1 -->
             <div class="row no-gutters">
-                 <!-- Colum set 1 -->
+                <!-- Colum set 1 -->
                 <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1">
                     <img class="img-fluid" src="images/menu-item-1.jpg" alt="">
                 </div>
@@ -124,8 +157,8 @@
                         <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
                     </div>
                 </div>
-                  <!-- Colum set 2 -->
-                  <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3">
+                <!-- Colum set 2 -->
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-3">
                     <img class="img-fluid" src="images/menu-item-2.jpg" alt="">
                 </div>
                 <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4 point-left">
@@ -136,8 +169,8 @@
                         <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
                     </div>
                 </div>
-                 <!-- Colum set 3 -->
-                 <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
+                <!-- Colum set 3 -->
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
                     <img class="img-fluid" src="images/menu-item-3.jpg" alt="">
                 </div>
                 <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6 point-left">
@@ -150,56 +183,57 @@
                 </div>
             </div>
 
-             <!-- Row 2 -->
-             <div class="row no-gutters">
+            <!-- Row 2 -->
+            <div class="row no-gutters">
                 <!-- Colum set 4 -->
-               <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2">
-                   <img class="img-fluid" src="images/menu-item-4.jpg" alt="">
-               </div>
-               <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-right">
-                   <div class="menu-item-desc">
-                       <h6>$10</h6>
-                       <h1>The Cake</h1>
-                       <p>This is amazing cake.I recommend it to everyone</p>
-                       <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
-                   </div>
-               </div>
-                 <!-- Colum set 5 -->
-                 <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4">
-                   <img class="img-fluid" src="images/menu-item-5.jpg" alt="">
-               </div>
-               <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-3 point-right">
-                   <div class="menu-item-desc">
-                       <h6>$10</h6>
-                       <h1>The Cake</h1>
-                       <p>This is amazing cake.I recommend it to everyone</p>
-                       <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
-                   </div>
-               </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-2">
+                    <img class="img-fluid" src="images/menu-item-4.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-right">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h1>The Cake</h1>
+                        <p>This is amazing cake.I recommend it to everyone</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
+                    </div>
+                </div>
+                <!-- Colum set 5 -->
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-4">
+                    <img class="img-fluid" src="images/menu-item-5.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-3 point-right">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h1>The Cake</h1>
+                        <p>This is amazing cake.I recommend it to everyone</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
+                    </div>
+                </div>
                 <!-- Colum set 6 -->
                 <div class="col-12 col-sm-6 col-xl-2 order-sm-6 order-xl-6">
-                   <img class="img-fluid" src="images/menu-item-6.jpg" alt="">
-               </div>
-               <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-right">
-                   <div class="menu-item-desc">
-                       <h6>$10</h6>
-                       <h1>The Cake</h1>
-                       <p>This is amazing cake.I recommend it to everyone</p>
-                       <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
-                   </div>
-               </div>
-           </div>
+                    <img class="img-fluid" src="images/menu-item-6.jpg" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-right">
+                    <div class="menu-item-desc">
+                        <h6>$10</h6>
+                        <h1>The Cake</h1>
+                        <p>This is amazing cake.I recommend it to everyone</p>
+                        <a href="#" class="btn mt-3 d-none d-xl-block">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- -----------------end of menu section ----------------- -->
 
+    <!-- -----------------chef section ----------------- -->
+    <section class="chef" id="chef">
+        <div class="container">
+            <div class="section-heading my-5 text-center">
+                <h4>Meet</h4>
+                <h1 class="display-4">Our Chef</h1>
+            </div>
 
-     <section class="chef" id="chef">
-            <div class="container">
-                <div class="section-heading my-5 text-center">
-                    <h4>Meet</h4>
-                    <h1 class="display-4">Our Chef</h1>
-                </div>
-            
 
             <div class="row text-center">
                 <div class="col-12 col-md-4" data-aos="fade-right">
@@ -228,12 +262,16 @@
                 </div>
             </div>
         </div>
-     </section>
-     
-     <footer class="text-center py-5">
-         &copy; K Bakery 2020, creater by <span> Abrarul Islam</span>
-     </footer>
+    </section>
+    <!-- -----------------end of chef section ----------------- -->
 
+    <!-- -----------------footer section ----------------- -->
+    <footer class="text-center py-5">
+        &copy; K Bakery 2020, creater by <span> Abrarul Islam</span>
+    </footer>
+    <!-- ----------------- end footer section ----------------- -->
+
+    <!-- -----------------script----------------- -->
     <script src="https://kit.fontawesome.com/ba33ab971e.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -246,6 +284,8 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="scripts.js" type="text/javascript"></script>
+    <!-- -----------------end of script ----------------- -->
+
 </body>
 
 </html>
