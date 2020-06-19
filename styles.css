@@ -140,6 +140,31 @@ header > .container{
 
 }
 
+
+/* Menu */
+.menu{
+    background-color: #101D2C;
+}
+.shop-info i{
+    color: #c69963;
+    font-size: 50px;
+}
+.shop-info h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.shop-info p,
+.shop-info address{
+    color: rgba(255,255,255,.5);
+}
+hr{
+    border-top: 1px solid rgba(255,255,255,.05);
+}
+
+
+
 @media (min-width: 576px){
     .navbar-brand{
         max-width: 150px;
